@@ -1,0 +1,32 @@
+---
+title: "methods"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+```{r}
+methods <- data.frame(deployment = c("Fall 2022", "Winter 2023", "Summer 2023"),start = c("26 Sept", "1 Feb", "22 May"),end = c("3 Oct", "23 Mar", "21 Jul"), coordinates= c("35.11631N 120.79067W", "35.11340N 120.78890W", "35.14784N 120.842194W"), depth= c("50", "58", "56"))
+view(methods)
+
+
+  
+
+```
+```{r}
+install.packages(devtools)
+```
+```{r}
+
+```
+
+
