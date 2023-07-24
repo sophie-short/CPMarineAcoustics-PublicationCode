@@ -22,11 +22,8 @@ view(methods)
   
 
 ```
-```{r}
-install.packages(devtools)
-```
-```{r}
+Code to create a data frame that includes the deployment dates, coordinates, and depths^
 
-```
+
 
 
